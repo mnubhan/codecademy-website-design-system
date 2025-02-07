@@ -1,0 +1,43 @@
+body{
+    margin:0 4rem;
+}
+
+section {
+    border: 1px solid black;
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.color__list{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    row-gap: 1rem;
+}
+
+.color__item{
+    min-width: 500px;
+    max-width: 600px;
+    background-color:green;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.color--maroon{
+    background-color:#b42b3f;
+}
+
+.color--black{
+    background-color:#000;
+    color:white;
+}
+
+.color--grey{
+    background-color:#A6A6A6;
+}
+.color--white{
+    background-color:#fff;
+    border:1px solid black;
+}
